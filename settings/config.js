@@ -2,8 +2,8 @@ require("dotenv").config();
 const { resolve } = require("path");
 
 module.exports = {
-    TOKEN: process.env.TOKEN || "Nzk4NDI2MzQwNzM0MjcxNDg4.GFfp5J.HlGdAMhwQlvor4EhIbzOVy-NGnbqv87AZhPnOI",  // your bot token
-    PREFIX: process.env.PREFIX || "#", //<= default is #  // bot prefix
+    TOKEN: process.env.TOKEN || "Nzk4NDI2MzQwNzM0MjcxNDg4.G33jE4.-gb4IE-VnHgBiaEZSieOAq_SZc2rnGJBn7Z2-A",  // your bot token
+    PREFIX: process.env.PREFIX || "//", //<= default is #  // bot prefix
     EMBED_COLOR: process.env.EMBED_COLOR || "#000001", //<= default is "#000001"
 
     OWNER_ID: process.env.OWNER_ID || "743887896481628190", //your owner discord id example: "515490955801919488"
